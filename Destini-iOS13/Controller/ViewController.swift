@@ -18,18 +18,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        storyLabel.text = storyBrain.story[0].title
-//
-//        choice1Button.setTitle(storyBrain.story[0].choise1, for: .normal)
-//        choice1Button.backgroundColor = .red
-//
-//        choice2Button.setTitle(storyBrain.story[0].choise2, for: .normal)
-//        choice2Button.backgroundColor = .purple
-        
-        updateUI()
-        
 
+        updateUI()
+    
     }
 
     @IBAction func choiseMade(_ sender: UIButton) {
